@@ -3,18 +3,19 @@
 WORKING_DIR=$(readlink -f "$(dirname "$0")")
 TIMESTAMP=$(date +%F_%T)
 
-FILESERVER_LOG=log/fileserver_$TIMESTAMP.log
-OLTP_LOG=log/oltp_$TIMESTAMP.log
-WEBSERVER_LOG=log/webserver_$TIMESTAMP.log
+sudo sh -c "echo 0 > /proc/sys/kernel/randomize_va_space"
 
-rm -rf $WORKING_DIR/log
+FILESERVER_LOG=log_${USER}/fileserver_$TIMESTAMP.log
+OLTP_LOG=log_${USER}/oltp_$TIMESTAMP.log
+WEBSERVER_LOG=log_${USER}/webserver_$TIMESTAMP.log
 
-mkdir log
+rm -rf $WORKING_DIR/log_${USER}
+
+mkdir log_${USER}
+
 touch $FILESERVER_LOG
 touch $OLTP_LOG
 touch $WEBSERVER_LOG
-
-sudo sh -c "echo 0 > /proc/sys/kernel/randomize_va_space"
 
 sudo filebench -f oltp.f > $OLTP_LOG
 sudo filebench -f webserver.f > $WEBSERVER_LOG
