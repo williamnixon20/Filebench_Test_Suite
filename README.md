@@ -41,6 +41,7 @@ It needs at least 1 log files to generate a plot with 2 values.
 In general, you need to:
 1. Set file paths to the results that you have got and what you wanna compare it against.
 2. Call the functions to parse the log file that you've got.
+3. run `python viz.py`
 
 ![image](https://user-images.githubusercontent.com/75229742/220404641-1e679ddb-c9f3-400a-9212-bed5a5e0f77e.png)
 This is the example of the visualization, depicting comparison of random reads on a 1 gig file between a digital ocean droplet and my local machine.
