@@ -46,4 +46,4 @@ In general, you need to:
 This is the example of the visualization, depicting comparison of random reads on a 1 gig file between a digital ocean droplet and my local machine.
 
 # Things to note:
-1. Please ENSURE virtual address randomization is of or Filebench won't run properly.
+Please ENSURE virtual address randomization is off or Filebench won't run properly. The script turns this off by default, but just in case you wanna try stuff out ;)
