@@ -1,0 +1,253 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.001: Random RW Version 3.0 personality successfully loaded
+0.001: Populating and pre-allocating filesets
+0.002: Removing largefile1 tree (if exists)
+0.004: Pre-allocating directories in largefile1 tree
+0.004: Pre-allocating files in largefile1 tree
+0.999: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+1.000: Population and pre-allocation of filesets completed
+1.000: Starting 1 rand-rw instances
+2.012: Running...
+12.014: Per-Operation Breakdown
+rand-write1          1219912ops   121980ops/s 953.0mb/s      0.0ms/op [0.00ms - 25.20ms]
+rand-read1           1494787ops   149464ops/s 1167.7mb/s      0.0ms/op [0.00ms - 26.07ms]
+12.014: IO Summary: 2714699 ops 271444.004 ops/s 149464/121980 rd/wr 2120.7mb/s   0.0ms/op
+22.021: Per-Operation Breakdown
+rand-write1          1698719ops   169755ops/s 1326.2mb/s      0.0ms/op [0.00ms - 18.02ms]
+rand-read1           1379454ops   137850ops/s 1077.0mb/s      0.0ms/op [0.00ms -  8.06ms]
+22.021: IO Summary: 3078173 ops 307605.083 ops/s 137850/169755 rd/wr 2403.2mb/s   0.0ms/op
+32.022: Per-Operation Breakdown
+rand-write1          1721331ops   172118ops/s 1344.7mb/s      0.0ms/op [0.00ms - 16.04ms]
+rand-read1           1439669ops   143954ops/s 1124.6mb/s      0.0ms/op [0.00ms -  9.32ms]
+32.022: IO Summary: 3161000 ops 316071.996 ops/s 143954/172118 rd/wr 2469.3mb/s   0.0ms/op
+42.023: Per-Operation Breakdown
+rand-write1          1855167ops   185500ops/s 1449.2mb/s      0.0ms/op [0.00ms -  7.71ms]
+rand-read1           1539761ops   153963ops/s 1202.8mb/s      0.0ms/op [0.00ms -  2.66ms]
+42.023: IO Summary: 3394928 ops 339462.995 ops/s 153963/185500 rd/wr 2652.1mb/s   0.0ms/op
+52.024: Per-Operation Breakdown
+rand-write1          1769278ops   176912ops/s 1382.1mb/s      0.0ms/op [0.00ms -  9.68ms]
+rand-read1           1440901ops   144077ops/s 1125.6mb/s      0.0ms/op [0.00ms -  8.04ms]
+52.024: IO Summary: 3210179 ops 320988.754 ops/s 144077/176912 rd/wr 2507.7mb/s   0.0ms/op
+62.025: Per-Operation Breakdown
+rand-write1          1708520ops   170837ops/s 1334.7mb/s      0.0ms/op [0.00ms - 11.93ms]
+rand-read1           1436372ops   143624ops/s 1122.1mb/s      0.0ms/op [0.00ms -  8.10ms]
+62.025: IO Summary: 3144892 ops 314461.307 ops/s 143624/170837 rd/wr 2456.7mb/s   0.0ms/op
+72.026: Per-Operation Breakdown
+rand-write1          1794951ops   179479ops/s 1402.2mb/s      0.0ms/op [0.00ms - 10.19ms]
+rand-read1           1518499ops   151837ops/s 1186.2mb/s      0.0ms/op [0.00ms -  5.43ms]
+72.026: IO Summary: 3313450 ops 331316.076 ops/s 151837/179479 rd/wr 2588.4mb/s   0.0ms/op
+82.027: Per-Operation Breakdown
+rand-write1          1899365ops   189918ops/s 1483.7mb/s      0.0ms/op [0.00ms -  9.58ms]
+rand-read1           1581208ops   158105ops/s 1235.2mb/s      0.0ms/op [0.00ms -  7.40ms]
+82.027: IO Summary: 3480573 ops 348022.498 ops/s 158105/189918 rd/wr 2718.9mb/s   0.0ms/op
+92.028: Per-Operation Breakdown
+rand-write1          1651265ops   165111ops/s 1289.9mb/s      0.0ms/op [0.00ms -  8.09ms]
+rand-read1           1719963ops   171980ops/s 1343.6mb/s      0.0ms/op [0.00ms - 10.07ms]
+92.028: IO Summary: 3371228 ops 337091.113 ops/s 171980/165111 rd/wr 2633.5mb/s   0.0ms/op
+102.029: Per-Operation Breakdown
+rand-write1          1227023ops   122692ops/s 958.5mb/s      0.0ms/op [0.00ms -  8.10ms]
+rand-read1           2258448ops   225825ops/s 1764.3mb/s      0.0ms/op [0.00ms - 12.28ms]
+102.029: IO Summary: 3485471 ops 348516.535 ops/s 225825/122692 rd/wr 2722.8mb/s   0.0ms/op
+112.030: Per-Operation Breakdown
+rand-write1          1036503ops   103640ops/s 809.7mb/s      0.0ms/op [0.00ms -  9.20ms]
+rand-read1           2185868ops   218566ops/s 1707.5mb/s      0.0ms/op [0.00ms -  9.07ms]
+112.030: IO Summary: 3222371 ops 322206.619 ops/s 218566/103640 rd/wr 2517.2mb/s   0.0ms/op
+122.031: Per-Operation Breakdown
+rand-write1          1037239ops   103714ops/s 810.3mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           2065817ops   206562ops/s 1613.8mb/s      0.0ms/op [0.00ms - 12.52ms]
+122.031: IO Summary: 3103056 ops 310276.496 ops/s 206562/103714 rd/wr 2424.0mb/s   0.0ms/op
+132.032: Per-Operation Breakdown
+rand-write1          1159134ops   115903ops/s 905.5mb/s      0.0ms/op [0.00ms - 12.04ms]
+rand-read1           2317272ops   231707ops/s 1810.2mb/s      0.0ms/op [0.00ms -  8.08ms]
+132.032: IO Summary: 3476406 ops 347609.697 ops/s 231707/115903 rd/wr 2715.7mb/s   0.0ms/op
+142.033: Per-Operation Breakdown
+rand-write1          1190142ops   119005ops/s 929.7mb/s      0.0ms/op [0.00ms -  8.05ms]
+rand-read1           2406795ops   240660ops/s 1880.2mb/s      0.0ms/op [0.00ms - 13.09ms]
+142.033: IO Summary: 3596937 ops 359664.423 ops/s 240660/119005 rd/wr 2809.9mb/s   0.0ms/op
+152.034: Per-Operation Breakdown
+rand-write1          1147257ops   114714ops/s 896.2mb/s      0.0ms/op [0.00ms -  8.05ms]
+rand-read1           2372623ops   237238ops/s 1853.4mb/s      0.0ms/op [0.00ms - 12.51ms]
+152.034: IO Summary: 3519880 ops 351951.573 ops/s 237238/114714 rd/wr 2749.6mb/s   0.0ms/op
+162.035: Per-Operation Breakdown
+rand-write1          1575129ops   157498ops/s 1230.5mb/s      0.0ms/op [0.00ms - 12.08ms]
+rand-read1           1754438ops   175427ops/s 1370.5mb/s      0.0ms/op [0.00ms -  8.14ms]
+162.035: IO Summary: 3329567 ops 332925.738 ops/s 175427/157498 rd/wr 2601.0mb/s   0.0ms/op
+172.036: Per-Operation Breakdown
+rand-write1          1698423ops   169827ops/s 1326.8mb/s      0.0ms/op [0.00ms - 16.09ms]
+rand-read1           1458717ops   145858ops/s 1139.5mb/s      0.0ms/op [0.00ms - 12.62ms]
+172.036: IO Summary: 3157140 ops 315684.799 ops/s 145858/169827 rd/wr 2466.3mb/s   0.0ms/op
+182.037: Per-Operation Breakdown
+rand-write1          1628815ops   162864ops/s 1272.4mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           1407821ops   140767ops/s 1099.7mb/s      0.0ms/op [0.00ms -  9.28ms]
+182.037: IO Summary: 3036636 ops 303631.142 ops/s 140767/162864 rd/wr 2372.1mb/s   0.0ms/op
+192.038: Per-Operation Breakdown
+rand-write1          1535927ops   153577ops/s 1199.8mb/s      0.0ms/op [0.00ms -  8.15ms]
+rand-read1           1420561ops   142041ops/s 1109.7mb/s      0.0ms/op [0.00ms - 12.04ms]
+192.038: IO Summary: 2956488 ops 295618.410 ops/s 142041/153577 rd/wr 2309.5mb/s   0.0ms/op
+202.045: Per-Operation Breakdown
+rand-write1          694349ops    69395ops/s 542.1mb/s      0.0ms/op [0.00ms - 30.64ms]
+rand-read1           559695ops    55937ops/s 437.0mb/s      0.0ms/op [0.00ms - 27.41ms]
+202.045: IO Summary: 1254044 ops 125331.457 ops/s 55937/69395 rd/wr 979.2mb/s   0.0ms/op
+212.046: Per-Operation Breakdown
+rand-write1          1042891ops   104271ops/s 814.6mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           2076371ops   207602ops/s 1621.9mb/s      0.0ms/op [0.00ms -  9.77ms]
+212.046: IO Summary: 3119262 ops 311873.556 ops/s 207602/104271 rd/wr 2436.5mb/s   0.0ms/op
+222.048: Per-Operation Breakdown
+rand-write1          1573372ops   157307ops/s 1229.0mb/s      0.0ms/op [0.00ms - 12.05ms]
+rand-read1           1376642ops   137638ops/s 1075.3mb/s      0.0ms/op [0.00ms -  8.13ms]
+222.048: IO Summary: 2950014 ops 294945.508 ops/s 137638/157307 rd/wr 2304.3mb/s   0.0ms/op
+232.052: Per-Operation Breakdown
+rand-write1          1028946ops   102862ops/s 803.6mb/s      0.0ms/op [0.00ms - 11.81ms]
+rand-read1           1903847ops   190324ops/s 1486.9mb/s      0.0ms/op [0.00ms - 13.63ms]
+232.052: IO Summary: 2932793 ops 293185.569 ops/s 190324/102862 rd/wr 2290.5mb/s   0.0ms/op
+242.054: Per-Operation Breakdown
+rand-write1          1299637ops   129934ops/s 1015.1mb/s      0.0ms/op [0.00ms - 11.86ms]
+rand-read1           1748696ops   174830ops/s 1365.9mb/s      0.0ms/op [0.00ms -  8.08ms]
+242.054: IO Summary: 3048333 ops 304763.692 ops/s 174830/129934 rd/wr 2381.0mb/s   0.0ms/op
+252.056: Per-Operation Breakdown
+rand-write1          1322594ops   132246ops/s 1033.2mb/s      0.0ms/op [0.00ms - 12.78ms]
+rand-read1           1557044ops   155688ops/s 1216.3mb/s      0.0ms/op [0.00ms - 12.06ms]
+252.056: IO Summary: 2879638 ops 287934.373 ops/s 155688/132246 rd/wr 2249.5mb/s   0.0ms/op
+262.057: Per-Operation Breakdown
+rand-write1          1600706ops   160056ops/s 1250.4mb/s      0.0ms/op [0.00ms -  8.09ms]
+rand-read1           1387778ops   138765ops/s 1084.1mb/s      0.0ms/op [0.00ms -  8.07ms]
+262.057: IO Summary: 2988484 ops 298821.028 ops/s 138765/160056 rd/wr 2334.5mb/s   0.0ms/op
+272.058: Per-Operation Breakdown
+rand-write1          1200651ops   120045ops/s 937.9mb/s      0.0ms/op [0.00ms -  8.09ms]
+rand-read1           2036485ops   203615ops/s 1590.7mb/s      0.0ms/op [0.00ms -  8.08ms]
+272.058: IO Summary: 3237136 ops 323659.646 ops/s 203615/120045 rd/wr 2528.6mb/s   0.0ms/op
+282.060: Per-Operation Breakdown
+rand-write1          1207393ops   120719ops/s 943.1mb/s      0.0ms/op [0.00ms - 12.07ms]
+rand-read1           1927442ops   192712ops/s 1505.6mb/s      0.0ms/op [0.00ms -  8.43ms]
+282.060: IO Summary: 3134835 ops 313430.530 ops/s 192712/120719 rd/wr 2448.7mb/s   0.0ms/op
+292.062: Per-Operation Breakdown
+rand-write1          1183867ops   118372ops/s 924.8mb/s      0.0ms/op [0.00ms - 13.48ms]
+rand-read1           1785903ops   178568ops/s 1395.1mb/s      0.0ms/op [0.00ms - 19.20ms]
+292.062: IO Summary: 2969770 ops 296939.912 ops/s 178568/118372 rd/wr 2319.8mb/s   0.0ms/op
+302.063: Per-Operation Breakdown
+rand-write1          1092517ops   109235ops/s 853.4mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           1758045ops   175777ops/s 1373.3mb/s      0.0ms/op [0.00ms - 12.08ms]
+302.063: IO Summary: 2850562 ops 285011.824 ops/s 175777/109235 rd/wr 2226.7mb/s   0.0ms/op
+312.066: Per-Operation Breakdown
+rand-write1          1168415ops   116812ops/s 912.6mb/s      0.0ms/op [0.00ms - 12.05ms]
+rand-read1           1739315ops   173888ops/s 1358.5mb/s      0.0ms/op [0.00ms - 16.25ms]
+312.066: IO Summary: 2907730 ops 290700.325 ops/s 173888/116812 rd/wr 2271.1mb/s   0.0ms/op
+322.067: Per-Operation Breakdown
+rand-write1          1059455ops   105932ops/s 827.6mb/s      0.0ms/op [0.00ms - 12.08ms]
+rand-read1           2195755ops   219549ops/s 1715.2mb/s      0.0ms/op [0.00ms - 12.07ms]
+322.067: IO Summary: 3255210 ops 325480.998 ops/s 219549/105932 rd/wr 2542.8mb/s   0.0ms/op
+332.069: Per-Operation Breakdown
+rand-write1          1097030ops   109682ops/s 856.9mb/s      0.0ms/op [0.00ms -  9.77ms]
+rand-read1           1957453ops   195708ops/s 1529.0mb/s      0.0ms/op [0.00ms -  9.75ms]
+332.069: IO Summary: 3054483 ops 305390.581 ops/s 195708/109682 rd/wr 2385.9mb/s   0.0ms/op
+342.072: Per-Operation Breakdown
+rand-write1          1390177ops   138985ops/s 1085.8mb/s      0.0ms/op [0.00ms - 15.18ms]
+rand-read1           2166280ops   216577ops/s 1692.0mb/s      0.0ms/op [0.00ms - 11.47ms]
+342.072: IO Summary: 3556457 ops 355562.178 ops/s 216577/138985 rd/wr 2777.8mb/s   0.0ms/op
+352.073: Per-Operation Breakdown
+rand-write1          1179037ops   117891ops/s 921.0mb/s      0.0ms/op [0.00ms - 10.46ms]
+rand-read1           1919146ops   191894ops/s 1499.2mb/s      0.0ms/op [0.00ms -  8.68ms]
+352.073: IO Summary: 3098183 ops 309784.472 ops/s 191894/117891 rd/wr 2420.2mb/s   0.0ms/op
+362.074: Per-Operation Breakdown
+rand-write1          1597286ops   159711ops/s 1247.7mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           1354104ops   135395ops/s 1057.8mb/s      0.0ms/op [0.00ms -  8.09ms]
+362.074: IO Summary: 2951390 ops 295106.007 ops/s 135395/159711 rd/wr 2305.5mb/s   0.0ms/op
+372.075: Per-Operation Breakdown
+rand-write1          1439700ops   143953ops/s 1124.6mb/s      0.0ms/op [0.00ms - 12.05ms]
+rand-read1           1830843ops   183063ops/s 1430.2mb/s      0.0ms/op [0.00ms -  8.09ms]
+372.075: IO Summary: 3270543 ops 327015.974 ops/s 183063/143953 rd/wr 2554.8mb/s   0.0ms/op
+382.076: Per-Operation Breakdown
+rand-write1          1692515ops   169235ops/s 1322.1mb/s      0.0ms/op [0.00ms -  8.06ms]
+rand-read1           1441091ops   144095ops/s 1125.7mb/s      0.0ms/op [0.00ms -  4.90ms]
+382.076: IO Summary: 3133606 ops 313329.800 ops/s 144095/169235 rd/wr 2447.9mb/s   0.0ms/op
+392.078: Per-Operation Breakdown
+rand-write1          1632284ops   163213ops/s 1275.1mb/s      0.0ms/op [0.00ms - 12.55ms]
+rand-read1           1397645ops   139752ops/s 1091.8mb/s      0.0ms/op [0.00ms -  9.11ms]
+392.078: IO Summary: 3029929 ops 302964.845 ops/s 139752/163213 rd/wr 2366.9mb/s   0.0ms/op
+402.079: Per-Operation Breakdown
+rand-write1          1377779ops   137764ops/s 1076.3mb/s      0.0ms/op [0.00ms -  8.43ms]
+rand-read1           1606995ops   160684ops/s 1255.3mb/s      0.0ms/op [0.00ms - 12.08ms]
+402.079: IO Summary: 2984774 ops 298447.884 ops/s 160684/137764 rd/wr 2331.6mb/s   0.0ms/op
+412.080: Per-Operation Breakdown
+rand-write1          1015178ops   101507ops/s 793.0mb/s      0.0ms/op [0.00ms - 25.31ms]
+rand-read1           2132275ops   213205ops/s 1665.7mb/s      0.0ms/op [0.00ms - 18.12ms]
+412.080: IO Summary: 3147453 ops 314711.878 ops/s 213205/101507 rd/wr 2458.7mb/s   0.0ms/op
+422.081: Per-Operation Breakdown
+rand-write1          1042167ops   104207ops/s 814.1mb/s      0.0ms/op [0.00ms - 11.13ms]
+rand-read1           2106949ops   210676ops/s 1645.9mb/s      0.0ms/op [0.00ms -  4.59ms]
+422.081: IO Summary: 3149116 ops 314882.725 ops/s 210676/104207 rd/wr 2460.0mb/s   0.0ms/op
+432.082: Per-Operation Breakdown
+rand-write1          1065591ops   106549ops/s 832.4mb/s      0.0ms/op [0.00ms - 15.04ms]
+rand-read1           2014465ops   201427ops/s 1573.6mb/s      0.0ms/op [0.00ms - 12.06ms]
+432.082: IO Summary: 3080056 ops 307975.234 ops/s 201427/106549 rd/wr 2406.1mb/s   0.0ms/op
+442.083: Per-Operation Breakdown
+rand-write1          1130659ops   113052ops/s 883.2mb/s      0.0ms/op [0.00ms -  8.09ms]
+rand-read1           2206731ops   220646ops/s 1723.8mb/s      0.0ms/op [0.00ms - 10.28ms]
+442.083: IO Summary: 3337390 ops 333697.688 ops/s 220646/113052 rd/wr 2607.0mb/s   0.0ms/op
+452.085: Per-Operation Breakdown
+rand-write1          1426771ops   142648ops/s 1114.4mb/s      0.0ms/op [0.00ms -  8.09ms]
+rand-read1           1636194ops   163587ops/s 1278.0mb/s      0.0ms/op [0.00ms -  8.09ms]
+452.085: IO Summary: 3062965 ops 306235.100 ops/s 163587/142648 rd/wr 2392.5mb/s   0.0ms/op
+462.089: Per-Operation Breakdown
+rand-write1          1522229ops   152164ops/s 1188.8mb/s      0.0ms/op [0.00ms -  8.07ms]
+rand-read1           1643446ops   164281ops/s 1283.4mb/s      0.0ms/op [0.00ms -  8.08ms]
+462.089: IO Summary: 3165675 ops 316445.668 ops/s 164281/152164 rd/wr 2472.2mb/s   0.0ms/op
+472.091: Per-Operation Breakdown
+rand-write1          1063772ops   106366ops/s 831.0mb/s      0.0ms/op [0.00ms - 20.15ms]
+rand-read1           2200930ops   220070ops/s 1719.3mb/s      0.0ms/op [0.00ms - 16.16ms]
+472.091: IO Summary: 3264702 ops 326435.957 ops/s 220070/106366 rd/wr 2550.3mb/s   0.0ms/op
+482.092: Per-Operation Breakdown
+rand-write1          1226372ops   122624ops/s 958.0mb/s      0.0ms/op [0.00ms -  9.59ms]
+rand-read1           1936788ops   193658ops/s 1513.0mb/s      0.0ms/op [0.00ms - 10.08ms]
+482.092: IO Summary: 3163160 ops 316282.601 ops/s 193658/122624 rd/wr 2471.0mb/s   0.0ms/op
+492.094: Per-Operation Breakdown
+rand-write1          1183612ops   118341ops/s 924.5mb/s      0.0ms/op [0.00ms - 11.44ms]
+rand-read1           1935396ops   193507ops/s 1511.8mb/s      0.0ms/op [0.00ms -  8.07ms]
+492.094: IO Summary: 3119008 ops 311848.690 ops/s 193507/118341 rd/wr 2436.3mb/s   0.0ms/op
+502.095: Per-Operation Breakdown
+rand-write1          1171319ops   117112ops/s 914.9mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           1868085ops   186776ops/s 1459.2mb/s      0.0ms/op [0.00ms - 12.84ms]
+502.095: IO Summary: 3039404 ops 303887.767 ops/s 186776/117112 rd/wr 2374.1mb/s   0.0ms/op
+512.097: Per-Operation Breakdown
+rand-write1          1142498ops   114236ops/s 892.5mb/s      0.0ms/op [0.00ms - 12.07ms]
+rand-read1           1861412ops   186119ops/s 1454.1mb/s      0.0ms/op [0.00ms -  9.76ms]
+512.097: IO Summary: 3003910 ops 300355.017 ops/s 186119/114236 rd/wr 2346.5mb/s   0.0ms/op
+522.099: Per-Operation Breakdown
+rand-write1          1231129ops   123086ops/s 961.6mb/s      0.0ms/op [0.00ms -  9.20ms]
+rand-read1           2002808ops   200237ops/s 1564.3mb/s      0.0ms/op [0.00ms - 12.06ms]
+522.099: IO Summary: 3233937 ops 323322.310 ops/s 200237/123086 rd/wr 2526.0mb/s   0.0ms/op
+532.106: Per-Operation Breakdown
+rand-write1          1211845ops   121105ops/s 946.1mb/s      0.0ms/op [0.00ms - 17.90ms]
+rand-read1           1910326ops   190907ops/s 1491.5mb/s      0.0ms/op [0.00ms - 12.15ms]
+532.106: IO Summary: 3122171 ops 312012.607 ops/s 190907/121105 rd/wr 2437.6mb/s   0.0ms/op
+542.108: Per-Operation Breakdown
+rand-write1          1207804ops   120759ops/s 943.4mb/s      0.0ms/op [0.00ms -  8.08ms]
+rand-read1           1905577ops   190524ops/s 1488.5mb/s      0.0ms/op [0.00ms -  8.08ms]
+542.108: IO Summary: 3113381 ops 311282.412 ops/s 190524/120759 rd/wr 2431.9mb/s   0.0ms/op
+552.109: Per-Operation Breakdown
+rand-write1          1156724ops   115656ops/s 903.6mb/s      0.0ms/op [0.00ms -  8.37ms]
+rand-read1           1772008ops   177176ops/s 1384.2mb/s      0.0ms/op [0.00ms - 12.10ms]
+552.109: IO Summary: 2928732 ops 292832.584 ops/s 177176/115656 rd/wr 2287.8mb/s   0.0ms/op
+562.111: Per-Operation Breakdown
+rand-write1          1106739ops   110660ops/s 864.5mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           1897210ops   189697ops/s 1482.0mb/s      0.0ms/op [0.00ms -  9.44ms]
+562.111: IO Summary: 3003949 ops 300356.334 ops/s 189697/110660 rd/wr 2346.5mb/s   0.0ms/op
+572.113: Per-Operation Breakdown
+rand-write1          1133879ops   113366ops/s 885.7mb/s      0.0ms/op [0.00ms - 12.05ms]
+rand-read1           1909381ops   190902ops/s 1491.4mb/s      0.0ms/op [0.00ms - 12.05ms]
+572.113: IO Summary: 3043260 ops 304267.733 ops/s 190902/113366 rd/wr 2377.1mb/s   0.0ms/op
+582.114: Per-Operation Breakdown
+rand-write1          1546877ops   154668ops/s 1208.3mb/s      0.0ms/op [0.00ms - 12.05ms]
+rand-read1           1369443ops   136927ops/s 1069.7mb/s      0.0ms/op [0.00ms -  9.09ms]
+582.114: IO Summary: 2916320 ops 291594.618 ops/s 136927/154668 rd/wr 2278.1mb/s   0.0ms/op
+592.118: Per-Operation Breakdown
+rand-write1          1445341ops   144483ops/s 1128.8mb/s      0.0ms/op [0.00ms - 19.41ms]
+rand-read1           1606255ops   160569ops/s 1254.4mb/s      0.0ms/op [0.00ms - 10.87ms]
+592.118: IO Summary: 3051596 ops 305051.764 ops/s 160569/144483 rd/wr 2383.2mb/s   0.0ms/op
+602.119: Run took 600 seconds...
+602.119: Per-Operation Breakdown
+rand-write1          1094062ops   109394ops/s 854.6mb/s      0.0ms/op [0.00ms - 12.06ms]
+rand-read1           1804239ops   180403ops/s 1409.4mb/s      0.0ms/op [0.00ms - 12.07ms]
+602.119: IO Summary: 2898301 ops 289796.600 ops/s 180403/109394 rd/wr 2264.0mb/s   0.0ms/op
+602.119: Shutting down processes
